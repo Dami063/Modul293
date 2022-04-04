@@ -1,0 +1,41 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: auto;
+    width: 70%;
+
+    /* flex-direction: column; */
+}
+
+.card{
+    border: 2px black solid;
+    border-radius: 20px;
+    height: 45vh;
+
+    display: flex;
+    flex-direction: column;
+    flex: 0 25%;
+
+    align-items: center;
+
+    margin: 1vh;
+}
+
+.card img{
+    width: 50%;
+    margin: 10%;
+}
+
+.card button{
+    border: 1px red solid;
+    border-radius: 5px;
+    background-color: red;
+
+    width: 75%;
+    height: 4vh;
+
+    color: white;
+}
